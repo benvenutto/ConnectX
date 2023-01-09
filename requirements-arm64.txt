@@ -1,5 +1,6 @@
 #
-# pip install -r requirements-arm64.txt
+# Run:
+#     pip install -r requirements-arm64.txt
 #
 
 pip
@@ -18,4 +19,14 @@ torch
 torchvision
 torchaudio
 pytorch-lightning
+
+#
+# Kaggle stuff.
+#
+kaggle
+kaggle-environments == 1.11
+
+notebook
+
+
 
