@@ -1,0 +1,21 @@
+#
+# pip install -r requirements-arm64.txt
+#
+
+pip
+setuptools
+wheel
+
+numpy == 1.21
+scikit-learn == 1.0
+pandas == 1.3
+
+#
+# Take latest for Apple Silicon MPS support
+#     torch==1.11
+#
+torch
+torchvision
+torchaudio
+pytorch-lightning
+
